@@ -1,0 +1,13 @@
+model_provider = "fhrouter"
+model = "gpt-5.5"
+model_reasoning_effort = "xhigh"
+network_access = "enabled"
+disable_response_storage = true
+windows_wsl_setup_acknowledged = true
+model_verbosity = "high"
+
+[model_providers.fhrouter]
+name = "fhrouter"
+base_url = "https://api.fhrouter.com/v1"
+wire_api = "responses"
+requires_openai_auth = true
